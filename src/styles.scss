@@ -1,17 +1,4 @@
-// @import '_vars.scss';
-// @import '~m.normalize/_normalize.scss';
-// @import '~m.core/src/_mol.scss';
-// @import '~m.grid/src/_grid.scss';
-
-body {
-	background: #111;
-	color: #222;
-	font-family: sans-serif;
-	font-size: 30px;
-	letter-spacing: 3px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 100vh;
-	transform: rotate(90deg);
-}
+@import '_vars.scss';
+@import '~mol.normalize/scss/_normalize.scss';
+@import '~mol.core/scss/_mol.scss';
+@import '~mol.grid/scss/_grid.scss';
