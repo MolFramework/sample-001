@@ -2,13 +2,11 @@
   "name": "sample-001",
   "version": "1.0.0",
   "description": "testing mol sample page",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MolFramework/sample-001.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack-dev-server --config './webpack.config.js'"
   },
