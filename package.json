@@ -8,7 +8,7 @@
     "url": "git+https://github.com/MolFramework/sample-001.git"
   },
   "scripts": {
-    "start": "node index",
+    "start": "node index | npm run scss",
     "scss": "sass --watch src/styles.scss:public/styles.css --style expanded"
   },
   "keywords": [
@@ -18,11 +18,10 @@
     "frontend-framework"
   ],
   "author": "flkt <flkt.crnpio@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "none",
   "bugs": {
     "url": "https://github.com/MolFramework/sample-001/issues"
   },
-  "license": "none",
   "homepage": "https://github.com/MolFramework/sample-001#readme",
   "dependencies": {
     "mol.core": "git+https://github.com/MolFramework/mol.core.git#80fa06c396e51f7dc3291b46af98f3771adaa938",
@@ -30,6 +29,7 @@
     "mol.normalize": "git+https://github.com/MolFramework/mol.normalize.git#b7d57c73c4607f4338e7d1b48fcb3d57577934ef"
   },
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-sass": "^4.13.1"
   }
 }
